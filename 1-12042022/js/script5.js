@@ -59,21 +59,19 @@ function ordenar(numeros) {
   }
 }
 
-// 0   1  2   3   4
-
-//[10, 2, 30, 4, 80];
-
-//j = 1
-
-//x = 2
-
-//i = 0
-
-function tabela() {
+function criarTabela() {
   var produtos = [
-    ["Produto", "Quantidade", "Preço"],
-    ["Calça", "45", "R$ 150,00"],
-    ["Blusa", "15", "R$ 45,00"],
-    ["Sapato", "35", "R$ 250,00"],
+    ["Produto", "Quantidade", "Preço"], //0
+    ["Calça", "45", "R$ 150,00"], //1
+    ["Blusa", "15", "R$ 45,00"], //2
+    ["Sapato", "35", "R$ 250,00"], //3
   ];
+  let saida = "";
+  for (var lin = 0; lin <= 2; lin++) {
+    for (var col = 0; col <= 2; col++) {
+      saida += "<span>" + produtos[lin][col] + "</span>";
+    }
+    saida += "<br>";
+  }
+  document.getElementById("tabela").innerHTML = saida;
 }
