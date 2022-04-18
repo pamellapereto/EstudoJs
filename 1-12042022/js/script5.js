@@ -58,3 +58,22 @@ function ordenar(numeros) {
     console.log(numeros[p]);
   }
 }
+
+// 0   1  2   3   4
+
+//[10, 2, 30, 4, 80];
+
+//j = 1
+
+//x = 2
+
+//i = 0
+
+function tabela() {
+  var produtos = [
+    ["Produto", "Quantidade", "Preço"],
+    ["Calça", "45", "R$ 150,00"],
+    ["Blusa", "15", "R$ 45,00"],
+    ["Sapato", "35", "R$ 250,00"],
+  ];
+}
