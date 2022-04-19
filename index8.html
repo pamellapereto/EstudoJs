@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Script Funções e seu Uso</title>
+  </head>
+
+  <body>
+    <h1>Formulário</h1>
+
+    <form onsubmit="return false">
+      <input type="text" placeholder="Nome" id="nome" /><br /><br />
+      <input type="text" placeholder="E-mail" id="email" /><br /><br />
+      <input type="text" placeholder="CPF" id="CPF" /><br /><br />
+      <input type="text" placeholder="Telefone" id="telefone" /><br /><br />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <style>
+      form {
+        width: 20vw;
+        padding: 20px;
+        margin: 60px auto;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.829);
+        border-radius: 10px;
+      }
+      input[type="text"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      input[type="submit"] {
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: 75px;
+      }
+    </style>
+
+    <script src="js/funcoes.js"></script>
+    <script src="js/uso.js"></script>
+  </body>
+</html>

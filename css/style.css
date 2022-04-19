@@ -1,0 +1,13 @@
+span {
+  font-family: Cochin;
+  font-size: 10pt;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+.titulo {
+  font-size: 12pt;
+  font-weight: bold;
+}
