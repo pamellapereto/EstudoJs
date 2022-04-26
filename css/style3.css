@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*border: 1px solid rgb(221, 36, 36);*/
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#cosmeticos {
+  width: 85%;
+  margin-left: 135px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#cosmeticos div {
+  width: 20%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  background-color: rgb(248, 226, 232);
+  box-shadow: 0px 1.5px 5px rgba(196, 0, 59, 0.568);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+#cosmeticos div img {
+  width: 100%;
+  margin-top: -120px;
+  margin-bottom: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 2px 0.8px rgba(196, 0, 59, 0.123);
+}
+
+.like {
+  background-color: rgb(122, 2, 38);
+  padding: 4px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 20pt;
+  margin-top: -50px;
+  margin-left: 210px;
+  /*subir o elemento acima dos demais*/
+  z-index: 200;
+  position: relative;
+  border: 1px solid rgb(63, 2, 21);
+  box-shadow: 0px 2px 3px rgb(0, 0, 0);
+}
+
+h2 {
+  font-family: Cochin;
+  text-align: left;
+  font-size: 22px;
+  color: rgba(117, 0, 35, 0.959);
+  text-shadow: 0.3px 0.3px 1px black;
+  line-height: 35px;
+}
+
+.preco {
+  background-color: rgb(122, 2, 38);
+  color: white;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Cochin;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px black;
+  font-size: 18pt;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 1px solid rgb(63, 2, 21);
+  box-shadow: 0px 2px 3px rgb(0, 0, 0);
+}
+.nota {
+  text-align: center;
+  font-family: Cochin;
+  color: rgba(117, 0, 35, 0.959);
+  text-shadow: 0.3px 0.3px 1px black;
+  font-size: 14pt;
+  margin-top: 30px;
+}
+
+#cosmeticos div:hover {
+  transition: ease 2s;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 100vw rgba(196, 0, 59, 0.568);
+  border-radius: 5px;
+  z-index: 10000;
+}
+
+#cosmeticos div img:hover {
+  border-radius: 9px;
+}
+
+h1 {
+  font-family: Cochin;
+  text-align: center;
+  margin-bottom: 75px;
+  font-size: 70px;
+  color: rgba(196, 0, 59, 0.884);
+  text-shadow: 1px 1.4px 1.4px black;
+}
